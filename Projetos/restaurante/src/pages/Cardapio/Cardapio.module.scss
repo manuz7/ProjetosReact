@@ -1,4 +1,27 @@
+@import 'styles/variaveis';
+
+
 .menu{
     padding: 20px 250px;
 
 }
+
+.header{
+    
+    background-image: url('/assets/cardapio/header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 0 $padding-horizontal;
+
+    &__text{
+        color: white;
+        font-size: 5rem;
+        min-width: 400px;
+        width: 40%;
+    }
+
+}
+
